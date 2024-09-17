@@ -1,0 +1,20 @@
+{
+  "wfh.testintl": "This is the English String",
+  "wfh.triggeredby": "Element clicked in the menu: ",
+  "plugin.name": "WFH Plugin",
+  "plugin.upload": "Upload using wfh Plugin",
+  "rhs.triggered": "You have triggered the right-hand sidebar component of the wfh plugin.",
+  "root.clicktoclose": "Click anywhere to close.",
+  "root.triggered": "You have triggered the root component of the wfh plugin.",
+  "sample.confirmation.dialog": "Sample Confirmation Dialog",
+  "sidebar.wfh": "WFH Plugin:",
+  "sidebar.disabled": "Disabled",
+  "sidebar.enabled": "Enabled",
+  "submenu.first": "First Item",
+  "submenu.menu": "Submenu Example",
+  "submenu.second": "Second Item",
+  "submenu.third": "Third Item",
+  "tooltip.message": "This is a custom tooltip from the wfh Plugin",
+  "useractions.action": "Action",
+  "useractions.wfh": "WFH Plugin: "
+}

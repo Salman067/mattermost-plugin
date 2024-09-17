@@ -1,0 +1,57 @@
+{
+    "id": "wfh-plugin",
+    "name": "WFH-Plugin",
+    "description": "This plugin serves as a starting point for writing a Mattermost plugin.",
+    "homepage_url": "https://github.com/mattermost/mattermost-plugin-starter-template",
+    "support_url": "https://github.com/mattermost/mattermost-plugin-starter-template/issues",
+    "icon_path": "assets/starter-template-icon.svg",
+    "min_server_version": "6.2.1",
+    "server": {
+        "executables": {
+            "linux-amd64": "server/dist/plugin-linux-amd64",
+            "linux-arm64": "server/dist/plugin-linux-arm64",
+            "darwin-amd64": "server/dist/plugin-darwin-amd64",
+            "darwin-arm64": "server/dist/plugin-darwin-arm64",
+            "windows-amd64": "server/dist/plugin-windows-amd64.exe"
+        }
+    },
+    "webapp": {
+        "bundle_path": "webapp/dist/main.js"
+    },
+    "settings_schema": {
+      "header": "Header: Configure your plugin settings below.",
+      "footer": "",
+      "settings": [
+        {
+          "key": "ChannelName",
+          "display_name": "Channel Name:",
+          "type": "text",
+          "help_text": "The channel to use as part of the plugin, created for each team automatically if it does not exist.",
+          "placeholder": "channel name (small case)",
+          "default": "",
+          "hosting": ""
+        },
+        {
+          "key": "MessageKey",
+          "display_name": "Input Message:",
+          "type": "text",
+          "help_text": "Write the input message  for the system user.",
+          "placeholder": "input message key",
+          "default": null,
+          "hosting": ""
+        },
+        {
+          "key": "Webhook",
+          "display_name": "Webhook URL:",
+          "type": "text",
+          "help_text": "Write the webhook URL for the system user.",
+          "placeholder": "webhook URL",
+          "default": null,
+          "hosting": ""
+        }
+      ]
+    },
+    "props": {
+      "support_packet": "Plugin support packet"
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "wfh.testintl": "Esta es la cuerda española",
+  "plugin.name": "Complemento de wfhstración",
+  "plugin.upload": "Subir usando el plugin wfh",
+  "root.clicktoclose": "Haga clic en cualquier lugar para cerrar.",
+  "root.triggered": "Has activado el componente raíz del complemento de wfhstración.",
+  "rhs.triggered": "Has activado el componente del panel derecho del complemento de wfhstración",
+  "sidebar.wfh": "Complemento de wfhstración:",
+  "sidebar.disabled": "Discapacitado",
+  "sidebar.enabled": "Habilitado",
+  "tooltip.message": "Esta es una información sobre herramientas personalizada del complemento de wfhstración",
+  "useractions.action": "Acción",
+  "useractions.wfh": "Complemento de wfhstración: ",
+  "submenu.menu": "Ejemplo de submenú",
+  "submenu.first": "Primer elemento",
+  "submenu.second": "Segundo elemento",
+  "submenu.third": "Tercer elemento",
+  "wfh.triggeredby": "Elemento hecho clic en el menú: "
+
+}

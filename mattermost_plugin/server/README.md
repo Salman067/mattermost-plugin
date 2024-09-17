@@ -1,0 +1,3 @@
+server running command
+
+*/ make /*
